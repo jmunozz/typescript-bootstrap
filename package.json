@@ -1,0 +1,44 @@
+{
+  "name": "typescript-bootstrap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "mocha",
+    "build": "tsc",
+    "prepublishOnly": "tsc",
+    "publish": "node scripts/publish.js",
+    "start": "node build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmunozz/typescript-bootstrap.git"
+  },
+  "docker": {
+		"owner": "***",
+		"imageName": "***"
+	},
+  "author": "jmunozz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmunozz/typescript-bootstrap/issues"
+  },
+  "homepage": "https://github.com/jmunozz/typescript-bootstrap#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^3.4.0",
+    "@typescript-eslint/parser": "^3.4.0",
+    "chai": "^4.2.0",
+    "chalk": "^4.1.0",
+    "chalk-animation": "^1.6.0",
+    "eslint": "^7.3.1",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "mocha": "^8.0.1",
+    "prettier": "^2.0.5",
+    "typescript": "^3.9.5"
+  },
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "winston": "^3.3.3"
+  }
+}

@@ -1,0 +1,5 @@
+{
+    "recursive": true,
+    "spec": "build/tests/**/*.spec.js",
+    "timeout": "10000"
+}
